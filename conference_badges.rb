@@ -10,6 +10,3 @@ def batch_badge_creator(name)
     badge_maker(badges)
   end
   
-  def batch_badge_creator(attendees)
-    attendees.map {|badges| badge_maker(badges)}
-  end

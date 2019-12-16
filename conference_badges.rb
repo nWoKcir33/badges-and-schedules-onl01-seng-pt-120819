@@ -21,3 +21,6 @@ counter +=1
 end
 return arrays
 end
+
+def printer
+  

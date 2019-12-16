@@ -4,9 +4,10 @@ def badge_maker(name)
   badge
 end
 
-def batch_badge_creator(name)
-  batch_list = []
-  name.each do |badges|
-    badge_maker(badges)
+def batch_badge_creator(array)
+  arrays = []
+  array.each do |name|
+    arrays.push("Hello, my name is #{name}.")
   end
-  
+  return arrays
+end
